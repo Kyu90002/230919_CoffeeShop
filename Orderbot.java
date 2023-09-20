@@ -29,6 +29,8 @@ public class Orderbot {
 	public static void view_menu() {
 		System.out.println("Mocha: $3.00");
 		System.out.println("smoothie: $4.00");
+		System.out.println("Americano: $2.00");
 		System.out.println("espresso: $1.00");
+
 	}
 }
