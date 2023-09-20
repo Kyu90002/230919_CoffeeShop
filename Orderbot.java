@@ -7,6 +7,7 @@ public class Orderbot {
 		String userInput;
 		System.out.println("Hi, welcome to Leefy coffy.");
 		System.out.println("Our current menu:");
+		view_menu();
         System.out.println("Would you like to order?");
 		userInput = scnr.nextLine();
 		if(yes_or_no((userInput))){
@@ -25,7 +26,9 @@ public class Orderbot {
 		return false;
 	}
 
-	public static void view_menue() {
-		
+	public static void view_menu() {
+		System.out.println("Mocha: $3.00");
+		System.out.println("smoothie: $4.00");
+		System.out.println("espresso: $1.00");
 	}
 }
