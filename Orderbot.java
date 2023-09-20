@@ -6,9 +6,13 @@ public class Orderbot {
 		Scanner scnr = new Scanner(System.in);
 		String userInput;
 		System.out.println("Hi, welcome to Leefy coffy.");
+		System.out.println("Our current menu:");
         System.out.println("Would you like to order?");
 		userInput = scnr.nextLine();
-		
+		if(yes_or_no((userInput))){
+			System.out.println("What would you like?");
+
+		}
 		
 		
 
