@@ -24,4 +24,8 @@ public class Orderbot {
 		}
 		return false;
 	}
+
+	public static void view_menue() {
+		
+	}
 }
