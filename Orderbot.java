@@ -6,9 +6,14 @@ public class Orderbot {
 		Scanner scnr = new Scanner(System.in);
 		String userInput;
 		System.out.println("Hi, welcome to Leefy coffy.");
+		System.out.println("Our current menu:");
+		view_menu();
         System.out.println("Would you like to order?");
 		userInput = scnr.nextLine();
-		
+		if(yes_or_no((userInput))){
+			System.out.println("What would you like?");
+
+		}
 		
 		
 
@@ -19,5 +24,13 @@ public class Orderbot {
 			return true;
 		}
 		return false;
+	}
+
+	public static void view_menu() {
+		System.out.println("Mocha: $3.00");
+		System.out.println("smoothie: $4.00");
+		System.out.println("Americano: $2.00");
+		System.out.println("espresso: $1.00");
+
 	}
 }
